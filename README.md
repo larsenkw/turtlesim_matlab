@@ -58,7 +58,7 @@ Next write a quick publisher to test that the connection is working. Create a pu
 
       Use showdetails to show the contents of the message
 
-    >> pub = rospublisher(‘/red_led’, ‘std_msgs/Bool’)
+    >> pub = rospublisher(‘/turtle/cmd_vel’, ‘geometry_msgs/Twist’)
 
     pub = 
 
